@@ -1,1 +1,23 @@
-r
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table_head {
+  background-color: black;
+  color: white;
+}
+
+.row_style {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bg_gray {
+  background-color: rgb(221, 214, 214);
+}
