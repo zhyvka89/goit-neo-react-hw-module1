@@ -18,15 +18,15 @@ function Profile({
       <ul className={styles.stats_list}>
         <li className={styles.stats_list_item}>
           <span>Followers</span>
-          <span>{followers}</span>
+          <span className={styles.stats_data}>{followers}</span>
         </li>
         <li className={styles.stats_list_item}>
           <span>Views</span>
-          <span>{views}</span>
+          <span className={styles.stats_data}>{views}</span>
         </li>
         <li className={styles.stats_list_item}>
           <span>Likes</span>
-          <span>{likes}</span>
+          <span className={styles.stats_data}>{likes}</span>
         </li>
       </ul>
     </div>
